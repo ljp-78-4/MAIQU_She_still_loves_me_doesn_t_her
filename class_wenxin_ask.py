@@ -45,7 +45,6 @@ class User:
 
     # 提问函数
     # questiont提问内容
-    # personality参数为AI在对话中的角色扮演要求
     #返回AI回答字符串
     def ask(self,question):
         #添加用户提问记录
