@@ -1,1 +1,1 @@
-# MAIQU_She_still_loves_me_doesn_t_her
+# 这是Stanford Ai 小镇项目
