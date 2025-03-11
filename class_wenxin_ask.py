@@ -4,11 +4,19 @@ import json
 #文心一言AI提问类
 #使用示例
 '''
+#从文件中导入User类
+from class_wenxin_ask import User
+#初始化User类
 user=User()
+#提问
 print(User.ask('1=1=？'))
+#继续提问
 print(User.ask('再加1呢？'))
+#打印对话记录
 user.show_record()
+#清空对话记录
 user.clear_record()
+#打印对话记录
 user.show_record()
 '''
 class User:
