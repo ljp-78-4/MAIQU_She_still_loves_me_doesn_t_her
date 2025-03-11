@@ -9,9 +9,9 @@ from class_wenxin_ask import User
 #初始化User类
 user=User()
 #提问
-print(User.ask('1=1=？'))
+print(user.ask('1=1=？'))
 #继续提问
-print(User.ask('再加1呢？'))
+print(user.ask('再加1呢？'))
 #打印对话记录
 user.show_record()
 #清空对话记录
